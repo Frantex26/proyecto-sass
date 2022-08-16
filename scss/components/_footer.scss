@@ -1,0 +1,28 @@
+/* ------------------------------- CSS FOOTER ------------------------------- */
+
+footer{
+    background-color: $bg-black;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    border-top: solid;
+    border-color: $border-white-footer;
+    border-width: 2px;
+    overflow: hidden;
+    resize: none;
+    grid-area: foot;
+    div{
+        padding-bottom: 25px;
+        p{
+            font-family: 'Roboto Slab', serif;
+            font-size: 15px;
+            color: nth($color, 4);
+            margin: 5px;
+        }
+        i{
+            font-size: nth($font-size, 4);
+            color: nth($color, 3);
+            margin: 5px;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+/* -------------------------------- CSS SHOP -------------------------------- */
+
+.container-shop{
+    width: 100%;
+    background-image: url(../img/shop-fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    h2{
+        color: nth($color ,10);
+        font-size: nth($font-size ,6);
+        margin: 2rem;
+        border: $border-blue-container ridge 5px;
+        border-radius: 15px;
+        background-color: $bg-black;
+        display: inline-block;
+        padding: 6px;
+    }
+    .producto-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 70%;
+        margin: 0 auto;
+        .producto {
+            background-color: $bg-black;
+            margin: 2rem;
+            padding: 2rem;
+            border: $border-celeste-producto ridge 8px;
+            border-radius: 10px;
+            .producto-info {
+                margin-top: 20px;
+                p{
+                    color: nth($color ,11);
+                    font-size: nth($font-size ,8);
+                }
+            }
+            .producto-img {
+                img{
+                    width: 70%;
+                    height: auto;
+                    margin-left: 45px;
+                }
+            }
+        }
+    }
+}

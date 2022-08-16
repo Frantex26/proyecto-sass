@@ -1,0 +1,60 @@
+/* -------------------------------- CSS GAMES ------------------------------- */
+
+.section-6{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    h2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: nth($font-size , 4);
+        color: nth($color , 1);
+        padding-bottom: 1rem;
+        margin: 10px;
+        border: $border-red-section ridge 8px;
+        border-radius: 15px;
+        display: inline-block;
+        padding: 8px;
+    }
+    p{
+        font-family: 'Roboto Slab', serif;
+        font-size: nth($font-size , 8);
+        color: nth($color , 8);
+        border: $border-orange-sect-div ridge 5px;
+        border-radius: 25px;
+        padding: 10px;
+    }
+}
+
+.div-h3{
+    h3{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: nth($font-size , 10);
+        color: nth($color , 1);
+        margin: 1rem;
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+        border: $border-red-h3 ridge 5px;
+        border-radius: 15px;
+        display: inline-block;
+        padding: 8px;
+    }
+}
+
+.div-games{
+    display: flex;
+    flex-direction: row;
+    border: $border-orange-sect-div ridge 5px;
+    border-radius: 10px;
+    margin: 20px;
+    margin-top: 10px;
+    p{
+        width: 70%;
+        font-family: 'Roboto Slab', serif;
+        font-size: nth($font-size , 7);
+        color: nth($color , 9);
+        margin: 3rem;
+    }
+    img{
+        width: 50%;
+    }
+}

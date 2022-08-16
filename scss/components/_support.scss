@@ -1,0 +1,94 @@
+/* ------------------------------- CSS SUPPORT ------------------------------ */
+
+.support{
+    h2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: nth($font-size, 6);
+        color: nth($color, 1);
+    }
+    p{
+        font-family: 'Roboto Slab', serif;
+        font-size: nth($font-size, 8);
+        color: nth($color, 5);
+        margin-bottom: 1rem;
+    }
+    form{
+        border: $border-fire-h3 ridge 10px;
+        ul{
+            li{
+                font-family: 'Roboto Slab', serif;
+                font-size: nth($font-size, 7);;
+                color: nth($color, 12);
+                margin: 1rem;
+            }
+        }
+    }
+}
+
+aside{
+    p{
+        font-family: 'Roboto Slab', serif;
+        font-size: nth($font-size, 8);
+        color: nth($color, 5);
+        margin: 1rem;
+    }
+    .sup-flex{
+        display: flex;
+        flex-direction: row;
+        .sup-img{
+            img{
+                width: 60%;
+                margin-bottom: 30px;
+            }
+        }
+        .sup-img-death{
+            img{
+                width: 72%;
+                margin-bottom: 30px;
+                border: $border-aside ridge 10px;
+            }
+        }
+    }
+}
+
+
+/* --------------------------- ANIMATION: YOU DIED -------------------------- */
+.death-background {
+    background: $bg-black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    opacity: 1;
+    animation: fade-in 10s linear;
+}
+
+.death-background p{
+    color: nth($color, 5);
+    font-family: 'Merriweather', serif;
+    letter-spacing: 1px;
+    font-size: 8em;
+    font-weight: 400;
+    animation: fade-in 10s linear, text-zoom 5s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    25% { opacity: 1; }
+    100% { opacity: 1; }
+}
+
+@keyframes text-zoom {
+    0% { font-size: 8em; }
+    25% { font-size: 9em; }
+    50% { font-size: 10em; }
+    75% { font-size: 11em; }
+    100% { font-size: 12em; }
+}
+
+/* ------------------------------ END ANIMATION ----------------------------- */

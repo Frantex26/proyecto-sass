@@ -1,0 +1,39 @@
+/* -------------------------------- CSS PLOT -------------------------------- */
+
+.section-4{
+    h2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: nth($font-size, 4);
+        color: nth($color, 1);
+        margin: 10px;
+    }
+    p{
+        font-family: 'Roboto Slab', serif;
+        font-size: nth($font-size, 7);
+        color: nth($color, 5);
+        border: $border-orange-sect-div ridge 5px;
+        border-radius: 25px;
+        padding: 20px;
+    }
+}
+
+.section-plot{
+    border: $border-orange-sect-div ridge 5px;
+    border-radius: 25px;
+    margin: 10px;
+    .section-5{
+        h3{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: nth($font-size, 8);
+            color: nth($color, 6);
+            text-decoration: underline;
+            text-decoration-color: #dd9105e3;
+            margin: 8px;
+        }
+        p{
+            font-family: 'Roboto Slab', serif;
+            font-size: nth($font-size, 7);
+            color: nth($color, 7);
+        }
+    }
+}
