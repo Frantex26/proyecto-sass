@@ -1,11 +1,10 @@
 /* ------------------------------- CSS FOOTER ------------------------------- */
 
 footer{
-    background-color: $bg-black;
     padding: 20px;
     padding-top: 20px;
     padding-bottom: 2px;
-    border-top: solid;
+    @include footer($colors, $bordes);
     border-color: $border-white-footer;
     border-width: 2px;
     overflow: hidden;

@@ -1,6 +1,8 @@
 @import "./base/listas";
 @import "./base/maps";
 @import "./base/variables";
+@import "./base/extend";
+@import "./base/mixin";
 
 @import "./components/header";
 @import "./components/footer";
@@ -10,4 +12,4 @@
 @import "./components/shop";
 @import "./components/support";
 
-@import "./components/mediaqueries"
+/* @import "./components/mediaqueries" */

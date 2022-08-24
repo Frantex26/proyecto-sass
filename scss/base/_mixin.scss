@@ -1,0 +1,17 @@
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+$colors: black;
+$bordes: solid;
+
+@mixin footer ($colors, $bordes) {
+    background-color: $colors;
+    border-top: $bordes;
+}

@@ -12,7 +12,7 @@
         border: $border-blue-container ridge 5px;
         border-radius: 15px;
         background-color: $bg-black;
-        display: inline-block;
+        @extend %display;
         padding: 6px;
     }
     .producto-grid {

@@ -1,8 +1,7 @@
 /* -------------------------------- CSS GAMES ------------------------------- */
 
 .section-6{
-    display: flex;
-    flex-direction: column;
+    @include flex-column();
     margin: 1rem;
     h2{
         font-family: 'Josefin Sans', sans-serif;
@@ -12,7 +11,7 @@
         margin: 10px;
         border: $border-red-section ridge 8px;
         border-radius: 15px;
-        display: inline-block;
+        @extend %display;
         padding: 8px;
     }
     p{
@@ -35,14 +34,13 @@
         margin-top: 3rem;
         border: $border-red-h3 ridge 5px;
         border-radius: 15px;
-        display: inline-block;
+        @extend %display;
         padding: 8px;
     }
 }
 
 .div-games{
-    display: flex;
-    flex-direction: row;
+    @include flex-row();
     border: $border-orange-sect-div ridge 5px;
     border-radius: 10px;
     margin: 20px;
